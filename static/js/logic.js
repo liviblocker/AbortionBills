@@ -17,18 +17,12 @@ let map = L.map('mapid', {
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let introduced = new L.LayerGroup();
-let passedOne = new L.LayerGroup();
-let passedLegislature = new L.LayerGroup();
 let enacted = new L.LayerGroup();
-let vetoed = new L.LayerGroup();
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let filters = {
-  "Introduced": introduced,
-  "Passed One Chamber": passedOne,
-  "Passed Legislature": passedLegislature,
-  "Enacted": enacted,
-  "Vetoed": vetoed
+  "Anti-Abortion Bills Introduced": introduced,
+  "Anti-Abortion Bills Enacted": enacted,
 };
 
 // Then we add a control to the map that will allow the user to change which
@@ -66,7 +60,129 @@ L.geoJson(data, {
   style: style,
   onEachFeature: function(features, layer) {
       console.log(layer);
-      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.TOTALNUMBER + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
+      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.TOTALNUMBER + "</u>" + " anti-abortion bill(s) were introduced in 2021." + "</h3>" + "<h3>" + "<u>" + features.properties.ENACTED + "</u>" + " anti-abortion bill(s) were" + "<i>" + " enacted" + "</i>" + " in 2021." + "</h3>" + "<h4>" + features.properties.DESCRIPTION + "</h4>" + "</center>", {
+        maxHeight: 300
+      });
     }
-  }).addTo(map);
-  });
+  }).addTo(introduced);
+
+  introduced.addTo(map);
+});
+
+// Here we create a legend control object.
+let legend1 = L.control({
+  position: "bottomright"
+});
+
+// Then add all the details for the legend
+legend1.onAdd = function() {
+  let div = L.DomUtil.create("div", "info legend");
+
+  const magnitudes = [1, 3, 7, 11, 15, 20, 25];
+  const colors = [
+    "#FED976",
+    "#FEB24C",
+    "#FD8D3C",
+    "#FC4E2A",
+    "#E31A1C",
+    "#BD0026",
+    "#800026"
+  ];
+
+// Looping through our intervals to generate a label with a colored square for each interval.
+  for (var i = 0; i < magnitudes.length; i++) {
+    console.log(colors[i]);
+    div.innerHTML +=
+      "<i style='background: " + colors[i] + "'></i> " +
+      magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
+    }
+    return div;
+  };
+
+  // Finally, we our legend to the map.
+  legend1.addTo(map);
+
+// Grabbing our GeoJSON data.
+d3.json("https://raw.githubusercontent.com/liviblocker/AbortionBills/main/USBorders.json").then(function(data) {
+  console.log(data);
+  // This function determines the color of the state based on the number of abortion bills introduced.
+  function getColor(noBills) {
+    return noBills > 6 ? '#800026' :
+           noBills > 5 ? '#BD0026' :
+           noBills > 4 ? '#E31A1C' :
+           noBills > 3 ? '#FC4E2A' :
+           noBills > 2 ? '#FD8D3C' :
+           noBills > 1 ? '#FEB24C' :
+           noBills > 0 ? '#FED976' :
+                         '#FFFBEC';
+  }
+  function style(feature) {
+    return {
+        fillColor: getColor(feature.properties.ENACTED),
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
+L.geoJson(data, {
+  style: style,
+  onEachFeature: function(features, layer) {
+      console.log(layer);
+      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.TOTALNUMBER + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "<h3>" + "<u>" + features.properties.ENACTED + "</u>" + " anti-abortion bill(s) were" + "<i>" + " enacted" + "</i>" + " in 2021." + "</h3>" + "<h4>" + features.properties.DESCRIPTION + "</h4>" + "</center>", {
+        maxHeight: 300
+      });
+    }
+  }).addTo(enacted);
+
+  enacted.addTo(map);
+});
+
+// Here we create a legend control object.
+let legend2 = L.control({
+  position: "bottomright"
+})
+
+// Then add all the details for the legend
+legend2.onAdd = function() {
+  let div = L.DomUtil.create("div", "info legend");
+
+  const magnitudes = [1, 2, 3, 4, 5, 6];
+  const colors = [
+    "#FED976",
+    "#FEB24C",
+    "#FD8D3C",
+    "#FC4E2A",
+    "#E31A1C",
+    "#BD0026",
+    "#800026"
+  ];
+
+// Looping through our intervals to generate a label with a colored square for each interval.
+  for (var i = 0; i < magnitudes.length; i++) {
+    console.log(colors[i]);
+    div.innerHTML +=
+      "<i style='background: " + colors[i] + "'></i> " +
+      magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
+    }
+    return div;
+  };
+
+  // Finally, we our legend to the map.
+  legend2.addTo(map);
+
+  currentLegend = legend1;
+    
+  map.on('baselayerchange', function (filters) {
+      if (filters.name === 'Anti-Abortion Bills Introduced') {
+          map.removeControl(currentLegend );
+          currentLegend = legend1;
+          legend1.addTo(map);
+      }
+      else if  (filters.name === 'Anti-Abortion Bills Enacted') {
+          map.removeControl(currentLegend );
+          currentLegend = legend2;
+          legend2.addTo(map);
+      }
+    });
