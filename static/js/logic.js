@@ -43,18 +43,18 @@ d3.json(usStates).then(function(data) {
   console.log(data);
   // This function determines the color of the state based on the number of abortion bills.
   function getColor(noBills) {
-    return noBills > 15 ? '#800026' :
-           noBills > 11 ? '#BD0026' :
-           noBills > 8 ? '#E31A1C' :
-           noBills > 6 ? '#FC4E2A' :
-           noBills > 4 ? '#FD8D3C' :
-           noBills > 2 ? '#FEB24C' :
+    return noBills > 30 ? '#800026' :
+           noBills > 25 ? '#BD0026' :
+           noBills > 20 ? '#E31A1C' :
+           noBills > 15 ? '#FC4E2A' :
+           noBills > 10 ? '#FD8D3C' :
+           noBills > 5 ? '#FEB24C' :
            noBills > 0 ? '#FED976' :
                          '#FFEDA0';
   }
   function style(feature) {
     return {
-        fillColor: getColor(feature.properties.NUMBEROFBILLS),
+        fillColor: getColor(feature.bills.TOTALNUMBER),
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -66,7 +66,7 @@ L.geoJson(data, {
   style: style,
   onEachFeature: function(features, layer) {
       console.log(layer);
-      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.NUMBEROFBILLS + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
+      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.bills.TOTALNUMBER + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
     }
   }).addTo(map);
   });
