@@ -43,14 +43,14 @@ d3.json(usStates).then(function(data) {
   console.log(data);
   // This function determines the color of the state based on the number of abortion bills introduced.
   function getColor(noBills) {
-    return noBills > 30 ? '#800026' :
-           noBills > 25 ? '#BD0026' :
-           noBills > 20 ? '#E31A1C' :
-           noBills > 15 ? '#FC4E2A' :
-           noBills > 10 ? '#FD8D3C' :
-           noBills > 5 ? '#FEB24C' :
+    return noBills > 25 ? '#800026' :
+           noBills > 20 ? '#BD0026' :
+           noBills > 15 ? '#E31A1C' :
+           noBills > 11 ? '#FC4E2A' :
+           noBills > 7 ? '#FD8D3C' :
+           noBills > 3 ? '#FEB24C' :
            noBills > 0 ? '#FED976' :
-                         '#FFEDA0';
+                         '#FFFBEC';
   }
   function style(feature) {
     return {
