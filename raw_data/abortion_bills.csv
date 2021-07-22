@@ -1,120 +1,225 @@
 ﻿State,Bill#,Description,Type,Status
+AK,H2001,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 AK,H206,All or Most Abortions Banned,Abortion Ban,Introduced
 AK,H215,All or Most Abortions Banned,Abortion Ban,Introduced
+AK,H216,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+AK,H69,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Enacted
+AK,SJR4,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
+AL,H237,"In May, Gov. Kay Ivey (R) signed legislation (H 237) that requires physicians to preserve the life of a fetus delivered alive after an abortion. The law is scheduled to take effect in August.",Provider-Specific Restrictions,Enacted
+AL,H317,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
+AL,H377,Bans the Use of Medication Abortion,Medication Abortion,Introduced
+AL,H620,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
 AR,H1195,"Targeted regulation of abortion providers; In February, Gov. Asa Hutchinson (R) signed a bill (H1195) creating a state program that provides information on pregnancy-related services. People seeking abortion care are required to contact the program and be offered pregnancy support, parenting resources, and care coordination; the program cannot refer them to abortion services. Prior to receiving payment for or performing an abortion, providers must report each patient to a state database and record an assigned resource consultation ID in the patient’s medical record. Providers must also report each abortion within two business days of its completion. In addition, the law requires at least annual random, unannounced audits of at minimum 10% of abortion facility and provider records. The law is scheduled to take effect in January 2023.",Clinic Regulation,Enacted
 AR,H1402,"Targeted regulation of abortion providers; In April, Gov. Asa Hutchinson (R) approved a measure (H 1402) that requires providers of medication abortion to follow a state-mandated protocol rather than the one recommended by the Food and Drug Administration or a medical organization. Under the state’s protocol, medication abortion must be provided in-person, and patients must receive a physical examination prior to receiving the medication. Physicians must also schedule an in-person follow-up after the abortion is complete. In addition, the measure requires medication abortion providers to have an emergency transfer agreement with a hospital or have an agreement with another provider who does. The law is scheduled to take effect in July.",Clinic Regulation,Enacted
+AR,H1572,"In April, Gov. Asa Hutchinson (R) approved a measure (H 1572) that requires abortion providers to tell patients about medication abortion “reversal” during preabortion counseling. The measure also creates additional abortion reporting requirements for medication abortion, including detailed information about the patient’s pregnancy history and reason for the abortion. Individual abortion reports must be filed within 15 days of the procedure. Currently providers are required to submit reports once a year. The law is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
+AR,H1589,"In April, Gov. Asa Hutchinson (R) approved a measure (H 1589) that prohibits state and local governments from funding, contracting with, or supporting abortion providers and their affiliates with taxpayer funds, except when an abortion is required to save a person’s life. The measure is scheduled to take effect in July.",Insurance Coverage,Enacted
 AR,S289,"Allows refusal by medical providers; In March, Gov. Asa Hutchinson (R) signed a measure (S 289) that creates a broad refusal clause for health care providers (including physicians, nurses, medical technicians, pharmacists, researchers and social workers), facilities and insurers. Under the law, individuals and institutions may refuse to provide any health care service, counseling or referral based on their religious, moral or ethical beliefs. Providers and institutions are not required to provide referrals when they refuse to provide care. The law is scheduled to take effect in June.",Expanding Refusal,Enacted
 AR,S388,"Targeted regulation of abortion providers; In April, Gov. Asa Hutchinson (R) signed legislation (S 388) that requires any provider who performs or administers an abortion to follow the state’s burdensome clinic regulations. Previously the regulations applied to facilities that provided at least 10 abortions per month. The law also bars hospitals from providing abortion services, except when the patient’s life is endangered. The law is scheduled to take effect in August.",Clinic Regulation,Enacted
-AR,S463,"Targeted regulation of abortion providers; In April, Gov. Asa Hutchinson (R) signed legislation (S 463) that adds to the requirements for reporting abortions and to the law regarding inspections of clinics that provide abortion. The law considers it a crime to notify the clinic of an upcoming inspection and to remove information that could be relevant to an inspection. It also requires the state to send to the Centers for Disease Control and Prevention all information collected through abortion reporting—and when a provider’s license is suspended as a result of an abortion. The law is scheduled to take effect in August.",Clinic Regulation,Enacted
+AR,S463,"In April, Gov. Asa Hutchinson (R) signed legislation (S 463) that adds to the requirements for reporting abortions and to the law regarding inspections of clinics that provide abortion. The law considers it a crime to notify the clinic of an upcoming inspection and to remove information that could be relevant to an inspection. It also requires the state to send to the Centers for Disease Control and Prevention all information collected through abortion reporting—and when a provider’s license is suspended as a result of an abortion. The law is scheduled to take effect in August.",Reporting Requirements,Enacted
 AR,S519,Abortion for Sex Selection Banned,Abortion Ban,Introduced
 AR,S527,"Admitting privileges required for abortion providers; In April, Gov. Asa Hutchinson (R) signed legislation (S 527) that requires abortion facilities to have a written agreement with a local hospital to transfer patients in an emergency. Abortion facilities must be located in the same county or within 30 miles of a hospital. Facilities must also have an emergency agreement with an ambulance service that is in the same county as the facility or within five miles of the facility. The law is scheduled to take effect in August.",Clinic Regulation,Enacted
 AR,S6,"All or Most Abortions Banned; In March, Gov. Asa Hutchinson (R) signed a measure (S 6) that bans abortion except when the woman’s life is severely endangered. The ban is scheduled to take effect in June.",Abortion Ban,Enacted
-AR,S85,"Targeted regulation of abortion providers; In March, Gov. Asa Hutchinson (R) signed a measure (S 85) that requires people seeking abortion to receive an ultrasound, with the image displayed, and a verbal description of the fetus from the provider prior to the procedure. Currently, if an ultrasound is part of the preabortion preparation, patients must be given the option to view the image. The law is scheduled to take effect in June.",Clinic Regulation,Enacted
+AR,S85,"In March, Gov. Asa Hutchinson (R) signed a measure (S 85) that requires people seeking abortion to receive an ultrasound, with the image displayed, and a verbal description of the fetus from the provider prior to the procedure. Currently, if an ultrasound is part of the preabortion preparation, patients must be given the option to view the image. The law is scheduled to take effect in June.",Ultrasound or Fetal Heartbeat Testing,Enacted
 AZ,H2140,All or Most Abortions Banned,Abortion Ban,Passed One Chamber
 AZ,H2404,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Introduced
 AZ,H2650,All or Most Abortions Banned,Abortion Ban,Introduced
+AZ,H2877,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
+AZ,S1207,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
 AZ,S1362,Allows refusal by medical providers,Expanding Refusal,Passed One Chamber
 AZ,S1381,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
 AZ,S1383,All or Most Abortions Banned,Abortion Ban,Introduced
 AZ,S1457,"In April, Gov. Doug Ducey (R) signed an omnibus abortion restriction measure (S 1457). The law bans abortion when the fetus has a genetic anomaly, except in the case of a lethal anomaly. It also prohibits public colleges and schools from providing abortion services, except where a person’s life is endangered. Fetal tissue from a procedural abortion must be buried or cremated, and abortion counseling must include information on fetal disposal and the genetic anomaly ban. The law also prohibits the mailing of drugs for medication abortion and revises the abortion reporting requirements to include whether the fetus had a genetic anomaly and whether the fetal tissue was buried or cremated. It is scheduled to take effect in August.",Abortion Ban; Clinic Regulation; Fetal Tissue,Enacted
 AZ,S1641,Abortion Method Banned,Abortion Method Bans,Introduced
 CO,H1017,All or Most Abortions Banned,Abortion Ban,Introduced
+CO,H1183,Requires Abortion Complication Reporting,Reporting Requirements,Introduced
+CT,H6293,Requires Parental Notice for Abortion,Parental Involvement,Introduced
+CT,S332,Requires Parental Notice for Abortion,Parental Involvement,Introduced
+DE,H40,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
+DE,S108,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
+DE,S17,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
 FL,H1221,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Passed One Chamber
-FL,H1437,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+FL,H1437,"Targeted regulation of abortion providers, General Counseling Requirements",Clinic Regulation,Introduced
+FL,H351,Requires Abortion Reporting,Reporting Requirements,Introduced
 FL,H352,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
 FL,H5001,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Introduced
 FL,S1664,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
-FL,S1984,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+FL,S1984,"Targeted regulation of abortion providers, General Counseling Requirements",Clinic Regulation,Introduced
 FL,S1986,Allows refusal by medical providers,Expanding Refusal,Introduced
 FL,S2500,"Crisis Pregnancy Center Funding; In June, Gov. Ron DeSantis (R) signed the state’s budget (S 2500), which includes more than $5 million for family planning and $2 million for a program to improve access to long-acting reversible contraceptives. The budget also directs the state’s Medicaid program to seek federal permission to extend postpartum coverage to one year. The budget also includes $10 million for pregnancy-related services, including substance use treatment for pregnant individuals, and nearly $21 million for maternal and child health services. Some $4.5 million was allocated for alternatives to abortions. The budget year starts in July.",Crisis Pregnancy Centers,Enacted
-FL,S744,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+FL,S744,"Abortion Banned after 12 weeks LMP, Requires Abortion Reporting",Abortion Ban,Introduced
+FL,S746,Requires Abortion Reporting,Reporting Requirements,Introduced
 HI,S841,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+HI,S842,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 IA,H267,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
-IA,H403,All or Most Abortions Banned and targeted regulation of abortion providers,Abortion Ban; Clinic regulation,Introduced
+IA,H331,Bans the Use of Medication Abortion,Medication Abortion,Introduced
+IA,H383,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
+IA,H403,"All or Most Abortions Banned , targeted regulation of abortion providers, General Counseling Requirements",Abortion Ban; Clinic regulation,Introduced
+IA,H404,Counseling on Fetal Personhood Required,Mandatory Counseling and Waiting Periods,Introduced
+IA,H41,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+IA,HJR5,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Passed Legislature
 IA,S377,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
-ID,H366,"All or Most Abortions Banned; In April, Gov. Brad Little (R) signed legislation (H 366) that will ban abortion at six weeks of pregnancy if the U.S. Supreme Court overturns Roe v. Wade. Abortion would be permitted only if the patient’s life were endangered or health were seriously compromised, or in cases of rape or incest.",Abortion Ban,Enacted
+IA,S508,Requires Abortion Reporting,Reporting Requirements,Introduced
+IA,SJR2,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+ID,H17,State Facilities and Employees Barred from Providing Abortion,Provider-Specific Restrictions,Introduced
+ID,H220,"In May, Gov. Brad Little (R) signed legislation (H 220) that mostly prohibits public funds from being used to support abortion care, including counseling and referral. These funds cannot be allocated to an abortion provider or an affiliate of an abortion provider, unless the organization is a Medicaid provider or a hospital. Public funds can only be used for abortions necessary to protect the patient’s life or to comply with the federal Medicaid program. In addition, public funds and tuition may not be used to support abortion training at public educational institutions, and public facilities are barred from providing abortion care unless it is necessary to save the patient’s life. The law went into effect upon signing.",Insurance Coverage,Enacted
+ID,H302,"In April, Gov. Brad Little (R) signed a measure (H 302) that requires state-developed abortion counseling materials to include medically accurate information about Down syndrome and services available to families with children born with Down syndrome. The law is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
+ID,H366,"In April, Gov. Brad Little (R) signed legislation (H 366) that will ban abortion at six weeks of pregnancy if the U.S. Supreme Court overturns Roe v. Wade. Abortion would be permitted only if the patient’s life were endangered or health were seriously compromised, or in cases of rape or incest.",Abortion Ban,Enacted
 ID,H56,All or Most Abortions Banned,Abortion Ban,Introduced
 ID,S1085,All or Most Abortions Banned,Abortion Ban,Introduced
 ID,S1183,All or Most Abortions Banned,Abortion Ban,Passed One Chamber
 IL,H1893a,Abortion for Sex Selection Banned; All or Most Abortions Banned; Partial-Birth' Abortion Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
 IL,H1893b,Abortion for Sex Selection Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
+IL,H1894,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
+IL,H261,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
+IL,H2980,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
 IL,H3043a,Abortion for Sex Selection Banned; All or Most Abortions Banned; Partial-Birth' Abortion Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
+IL,H3043b,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 IL,H3046a,Abortion for Sex Selection Banned; All or Most Abortions Banned; Partial-Birth' Abortion Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
+IL,H3046b,Abortion Coverage Restricted in Medicaid and Private Health Care Plans,Insurance Coverage,Introduced
 IL,H3047a,Abortion for Sex Selection Banned; All or Most Abortions Banned; Partial-Birth' Abortion Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
+IL,H3047b,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+IL,H3049,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
+IL,H3050,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 IL,H3053,Abortion for Sex Selection Banned; All or Most Abortions Banned; Partial-Birth' Abortion Banned; Targeted regulation of abortion providers; Allows refusal by medical providers,Abortion Ban,Introduced
+IL,H338,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+IL,H683,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
 IL,H791,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
 IL,H827,Partial-Birth' Abortion Banned,Abortion Method Bans,Introduced
+IL,S133,Ultrasound Must Be Offered,Ultrasound or Fetal Heartbeat Testing,Introduced
 IL,S1856,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 IN,H1310,All or Most Abortions Banned,Abortion Ban,Introduced
 IN,H1439,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 IN,H1539,All or Most Abortions Banned,Abortion Ban,Introduced
 IN,H1557,All or Most Abortions Banned,Abortion Ban,Introduced
 IN,H1577,"In April, Gov. Eric Holcomb (R) signed an omnibus measure (H 1577) that expands the state’s abortion laws. The required requires that parental consent for a minor’s abortion must be notarized. The state’s abortion refusal clause will now allow mental health providers to refuse to participate in any aspect of an abortion and allow any medical provider to refuse to handle fetal tissue. The law also limits medication abortion to up to 10 weeks of pregnancy and must be provided in-person, further barring the use of telehealth. The physician must also provide verbal and written counseling about medication abortion “reversal.” An image from an ultrasound, which is mandated, must be offered to the patient for free, and the provider must include a copy of the ultrasound report in the patient’s file. In addition, abortion reporting to the state must include the location where the pregnant person received counseling and provided consent. Finally, the law added to the state’s clinic regulations by requiring inspectors to review patient files and prohibit license renewal until any noncompliance issue is resolved. The law is scheduled to take effect in July.",Clinic Regulation; Expanding Refusal,Enacted
-IN,HJR4,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
+IN,HJR4,"Bans Abortion by Establishing Fetal Personhood, Weakens Abortion Protections in State Constitution",Abortion Ban,Introduced
+IN,S3,"In April, Gov. Eric Holcomb (R) signed a measure (S 3) that expands the ban on telehealth for abortion care to include prescribing the medications used during a medication abortion. The law took effect immediately upon signing.",Medication Abortion,Enacted
 IN,S399,All or Most Abortions Banned,Abortion Ban,Introduced
+KS,HCR5003,"In January, the legislature authorized a ballot measure (HCR 5003) that, if approved in an August 2022 statewide election, would amend the state constitution to explicitly exclude abortion rights (except in cases of rape or incest, or when the life of the mother is endangered) and prohibit public funding of abortion.",State Constitutional Protections,Enacted
 KS,S267,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Introduced
+KS,SCR1602,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 KY,H103,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 KY,H2,"Targeted regulation of abortion providers; In February, the Kentucky legislature overrode Gov. Andy Beshear’s (D) veto of a measure (H 2) that gives the state’s attorney general more authority to regulate, sue and penalize abortion clinics for violations of state law or regulations. The law went into effect immediately.",Clinic Regulation,Vetoed
 KY,H460a,Admitting privileges required for abortion providers; Targeted regulation of abortion providers,Clinic Regulation,Introduced
+KY,H460b,Requires Abortion Reporting,Reporting Requirements,Introduced
+KY,H91,"In March, the legislature approved a measure (H 91) that will ask voters in in the November 2022 statewide election to amend the state constitution to explicitly exclude abortion rights and prohibit public funding of abortion.",State Constitutional Protections,Enacted
+KY,H96,Amending the Court Process to Waive Parental Involvement; Requires Minor or Parent to Provide Identification; Requires Parental Consent for Abortion,Parental Involvement,Introduced
+KY,S9,"In January, the legislature overrode Gov. Andy Beshear’s (D) veto of a measure (S 9) that requires physicians to preserve the life of a fetus delivered alive after an abortion. (The state already has a law that provides legal protections for a fetus delivered after an abortion.) The law took effect immediately.",Provider-Specific Restrictions,Enacted
+LA,H357,"In June, Gov. John Bel Edwards (D) signed legislation (H 357) that further limits abortion access for people younger than 18. The law now requires people in this age group seeking a court order waiving parental consent at a juvenile court in their county of residence, with limited exceptions. (Previously, the law had allowed the young person to seek the waiver in the abortion clinic’s county as well.) The law also amends the existing abortion reporting law to require information related to the judicial bypass, including the name of the court that issued the order, as well as whether child abuse was suspected and if the facility provided a referral for postabortion counseling. The law is scheduled to take effect in August.",Parental Involvement,Enacted
+LA,H423,"In June, Gov. John Bel Edwards (D) signed legislation (H 423) that requires additional reporting on abortions. The law mandates hospitals to report on abortion complications. It also requires the state Department of Health to provide reports to the state’s attorney general that detail abortions provided to individuals younger than 13. The law is scheduled to take effect in August.",Reporting Requirements,Enacted
+LA,H578,"In June, Gov. John Bel Edwards (D) signed legislation (H 578) that requires medication abortion patients to receive written information on the unsubstantiated notion that medication abortion can be reversed. The law is scheduled to take effect in August.",Mandatory Counseling and Waiting Periods,Enacted
+MA,H1534,Amending the Court Process to Waive Parental Involvement,Parental Involvement,Introduced
 MA,H1628,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+MA,H1760,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 MA,H2409,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
+MD,H1109,Ultrasound Must Be Performed,Ultrasound or Fetal Heartbeat Testing,Introduced
+MD,H1198,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
+MD,H834,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 MD,H846,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
 MD,H997,All or Most Abortions Banned,Abortion Ban,Introduced
+MD,S423,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+ME,H553,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+ME,H619,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
+ME,H671,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+ME,H900,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
+ME,S254,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
 MI,H4399,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Passed One Chamber
 MI,H4737,Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Introduced
 MI,S79,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Passed One Chamber
+MN,H1099,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+MN,H1928,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+MN,H1934,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 MN,H2180,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+MN,H2289,Prohibits Telemedicine for Medication Abortion,Medication Abortion,Introduced
 MN,H262,All or Most Abortions Banned,Abortion Ban,Introduced
 MN,H643,All or Most Abortions Banned,Abortion Ban,Introduced
+MN,S1045,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 MN,S1636,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+MN,S202,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 MN,S223,All or Most Abortions Banned,Abortion Ban,Introduced
 MN,S356,All or Most Abortions Banned,Abortion Ban,Introduced
+MO,H155,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+MO,H302,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
 MO,H431,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 MO,H468,Abortion Method Banned,Abortion Method Bans,Introduced
+MO,H67,Ultrasound Must Be Performed,Ultrasound or Fetal Heartbeat Testing,Introduced
+MO,H672,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 MO,S101,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+MO,S168,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 MO,S391,All or Most Abortions Banned,Abortion Ban,Introduced
 MO,S443,All or Most Abortions Banned,Abortion Ban,Introduced
-MO,S450,All or Most Abortions Banned,Abortion Ban,Introduced
+MO,S450,"All or Most Abortions Banned, Requires Abortion Reporting",Abortion Ban,Introduced
+MO,S451,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
 MO,S458,Abortion Method Banned,Abortion Method Bans,Introduced
+MO,S514,Ultrasound Must Be Performed,Ultrasound or Fetal Heartbeat Testing,Introduced
 MO,S603,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+MO,SJR18,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+MS,H1162,Ultrasound Must Be Performed,Ultrasound or Fetal Heartbeat Testing,Introduced
 MS,H338,All or Most Abortions Banned,Abortion Ban,Introduced
 MS,H790,All or Most Abortions Banned,Abortion Ban,Introduced
 MT,H136,"In April, Gov. Greg Gianforte (R) signed legislation (H 136) that bans abortion at 20 weeks after the last menstrual period. An abortion would be permitted after that time only when the patient’s life or physical health is endangered. The law is scheduled to take effect in October.",Abortion Ban,Enacted
-MT,H171,"Targeted regulation of abortion providers; In April, Gov. Greg Gianforte (R) signed legislation (H 171) that restricts access to medication abortion. The law requires the drugs to be administered in person and prohibits the mailing of the medication, effectively prohibiting the use of telehealth for medication abortion. It requires the provider to handle abortion complications or contract with another provider to do so. In addition, the patient must receive counseling at least 24 hours before a medication abortion and then certify that the counseling was provided. The counseling must include unproven information regarding medication abortion “reversal,” along with information on the risks of medication abortion. The law also requires additional medication abortion reporting, including information on the drugs used, the payment method, the reason for the abortion and information on any complications. The law is scheduled to take effect in October.",Clinic Regulation,Enacted
+MT,H140,"In April, Gov. Greg Gianforte (R) signed a measure (H 140) that requires people seeking an abortion to have an opportunity to view an ultrasound image of their fetus. The law is scheduled to take effect in October.",Reporting Requirements,Enacted
+MT,H167,"In April, Gov. Greg Gianforte (R) signed legislation (H 167) that adds a measure to the 2022 ballot that would require providers to preserve the life of a fetus delivered alive after an abortion. The state already has a similar requirement in effect. If approved by the voters, the law would go into effect in January 2023.",Provider-Specific Restrictions,Enacted
+MT,H171,"In April, Gov. Greg Gianforte (R) signed legislation (H 171) that restricts access to medication abortion. The law requires the drugs to be administered in person and prohibits the mailing of the medication, effectively prohibiting the use of telehealth for medication abortion. It requires the provider to handle abortion complications or contract with another provider to do so. In addition, the patient must receive counseling at least 24 hours before a medication abortion and then certify that the counseling was provided. The counseling must include unproven information regarding medication abortion “reversal,” along with information on the risks of medication abortion. The law also requires additional medication abortion reporting, including information on the drugs used, the payment method, the reason for the abortion and information on any complications. The law is scheduled to take effect in October.",Medication Abortion,Enacted
+MT,H229,"In April, Gov. Greg Gianforte (R) signed legislation (H 229) that prohibits health insurance plans purchased through the state exchange from covering an abortion unless the patient’s life is endangered, or in cases of rape or incest. The law is scheduled to take effect in October.",Insurance Coverage,Enacted
 MT,H337,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Passed One Chamber
+MT,S315,Requirements for Infant Born Alive,Provider-Specific Restrictions,Passed One Chamber
 NC,H31,All or Most Abortions Banned,Abortion Ban,Introduced
 NC,H453,Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Vetoed
+NC,H510,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+NC,S404,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
+NC,S405,Requirements for Infant Born Alive,Provider-Specific Restrictions,Passed One Chamber
 ND,H1313,All or Most Abortions Banned,Abortion Ban,Introduced
 ND,S2323,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 NH,H2,"In June, Gov. Chris Sununu (R) signed legislation (H 2) that limits access to abortion and family planning services. The law prohibits abortion at 24 weeks after the last menstrual period except in cases of life endangerment or severe physical health conditions. The law also requires an ultrasound before an abortion and establishes reporting for abortions provided at or after 24 weeks. The state also cannot allocate family planning funds to organizations that provide abortion services beyond cases of life endangerment, rape or incest. The fiscal year started in July.",Abortion Ban,Enacted
+NH,H233,Requirements for Infant Born Alive,Provider-Specific Restrictions,Passed One Chamber
 NH,H430,Regulates Clinic Access,Clinic Regulation,Introduced
+NH,H434,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+NH,H596,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
 NH,H622,Postviability Abortion Restriction,Abortion Ban,Introduced
 NH,H625,Abortion Banned after 12 weeks LMP,Abortion Ban,Passed One Chamber
+NJ,A152,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 NJ,A2228,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
 NJ,A2936,Provider may omit medical information that could lead to abortion,Allows Withholding of Pregnancy Information,Introduced
 NJ,A2978,Fetal tissue donation and research restricted,Fetal Tissue,Introduced
 NJ,A3215,Fetal tissue donation and research restricted,Fetal Tissue,Introduced
 NJ,A3725,Abortion Method Banned,Abortion Method Bans,Introduced
+NJ,A579,Waiting Period Requirements,Mandatory Counseling and Waiting Periods,Introduced
+NJ,ACR123,Requires Parental Notice for Abortion,Parental Involvement,Introduced
+NJ,S1741,Waiting Period Requirements,Mandatory Counseling and Waiting Periods,Introduced
 NJ,S429,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+NJ,S462,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 NJ,S924,Fetal tissue donation and research restricted,Fetal Tissue,Introduced
+NJ,SCR20,Requires Parental Notice for Abortion,Parental Involvement,Introduced
 NM,H160,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 NM,S323,Allows refusal by medical providers,Expanding Refusal,Introduced
+NV,A175,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
+NV,A176,Requires Parental Notice for Abortion,Parental Involvement,Introduced
+NY,A3752,Counseling on Perinatal Hospice for Severe Fetal Anomaly,Mandatory Counseling and Waiting Periods,Introduced
+NY,A3780,Amending the Court Process to Waive Parental Involvement,Parental Involvement,Introduced
+NY,A4429,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 NY,A7437,All or Most Abortions Banned,Abortion Ban,Introduced
+NY,S2569,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 OH,H110,"In June, Gov. Mike DeWine (R) signed the state’s budget (H 110), which includes $25 million for maternal and child health and $3 million for abortion alternatives, as well as statutory provisions on sex education, refusal to provide medical services and abortion. The budget requires the state to expand Medicaid coverage for one year postpartum (an increase from 60 days). Schools must notify parents when a sex education class includes any instruction besides the abstinence programming that is required by state law. The budget also prohibits the state Board of Education from adopting regulations on sex education that differ from state law and requires the state Department of Education to audit sex education programs each year. The law also includes an expansive refusal clause that allows medical providers, medical institutions and health insurers to refuse to provide any treatment or service as a result of religious, moral or ethical beliefs. In addition, an abortion clinic that wants to be granted a waiver from the requirement that it have a transfer agreement with a local hospital must have an arrangement with a physician who has privileges at a hospital within 25 miles of the clinic. The money for maternal and child health and alternatives to abortion services is for each of the next two fiscal years. The 2022 fiscal year started in July.",Clinic Regulation; Crisis Pregnancy Centers; Expanding Refusal,Enacted
 OH,S123,All or Most Abortions Banned,Abortion Ban,Introduced
-OK,H1102,"All or Most Abortions Banned; In April, Gov. Kevin Stitt (R) signed a measure (H 1102) that bans abortion by defining it as “unprofessional conduct” for physicians. The ban has exceptions when the patient’s life or physical health is endangered. The measure is scheduled to take effect in November.",Abortion Ban,Enacted
-OK,H2441,"All or Most Abortions Banned; In April, Gov. Kevin Stitt (R) signed a measure (H 2441) that bans abortion after a fetal heartbeat is detected, generally about six weeks after a person’s last menstrual period. An abortion would only be permitted in cases where the patient’s life or physical health is endangered. The law is scheduled to take effect in November.",Abortion Ban,Enacted
+OH,S157,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+OH,S260,"In January, Gov. Mike DeWine (R) signed a measure (S 260) that prohibits the use of telemedicine for medication abortion. Under the law, a patient must take the initial dose of medication in the physical presence of a physician. The measure is scheduled to take effect in April.",Medication Abortion,Enacted
+OK,H1102,"In April, Gov. Kevin Stitt (R) signed a measure (H 1102) that bans abortion by defining it as “unprofessional conduct” for physicians. The ban has exceptions when the patient’s life or physical health is endangered. The measure is scheduled to take effect in November.",Abortion Ban,Enacted
+OK,H1904,"In April, Gov. Kevin Stitt (R) signed legislation (H 1904) that limits abortion provision to physicians who are board-certified in obstetrics and gynecology. Previously any physician could provide abortion services. The law is scheduled to take effect in November.",Provider-Specific Restrictions,Enacted
+OK,H2441,"In April, Gov. Kevin Stitt (R) signed a measure (H 2441) that bans abortion after a fetal heartbeat is detected, generally about six weeks after a person’s last menstrual period. An abortion would only be permitted in cases where the patient’s life or physical health is endangered. The law is scheduled to take effect in November.",Abortion Ban,Enacted
 OK,HJR1027,All or Most Abortions Banned; Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 OK,S495,All or Most Abortions Banned,Abortion Ban,Introduced
 OK,S612,All or Most Abortions Banned,Abortion Ban,Passed One Chamber
 OK,S723,All or Most Abortions Banned,Abortion Ban,Passed One Chamber
-OK,S778,"Targeted regulation of abortion providers; In May, Gov. Kevin Stitt (R) signed legislation (S 778) that limits access to and provision of medication abortion. The measure reinforces existing law that only a physician can provide medication abortion and also prohibits the mailing of the pills necessary for the procedure. It also requires the provider to verify the pregnancy and conduct blood tests before a medication abortion, requiring the patient to make a trip to the clinic before a 72-hour waiting period already in effect begins. The provider must also be able to handle emergencies related to medication abortion or have a contract with another physician who can provide this care. In addition, the patient will be required to receive counseling on, and consent in writing to, the medication abortion. This counseling must provide unverified information on medication abortion “reversal,” including the unproven idea that reversing a medication abortion does not increase the risk of maternal mortality. (Currently counseling related to reversing a medication abortion is not in effect because of a pending court case.) The law also requires reporting requirements for each medication abortion that includes the types of medication used, information on complications and payment information. The law is scheduled to go into effect in November.",Clinic Regulation,Enacted
-OK,S779,"In May, Gov. Kevin Stitt (R) signed legislation (S 779) that requires the State Board of Pharmacy, the State Board of Medical Licensure and Supervision, and the State Board of Osteopathic Examiners to establish certification requirements for providing medication abortion. The regulations, which restate the state’s ban on telehealth for medication abortion, limit distribution of medication abortion pills to those providers participating in the program and prohibit mailing of the pills necessary for the procedure. Providers are required to verify the patient’s pregnancy in-person and to provide the patient with information about medication abortion, including unverified information that reversing a medication abortion does not increase genetic anomalies in the fetus or increase the risk of maternal mortality. The law prohibits providing medication abortion after 10 weeks of pregnancy. It also requires providers to either have admitting privileges at a hospital in the same county as the abortion facility or an adjacent county, or to have an agreement with a physician who has those privileges. Providers are also required to report medication abortions, including the types of medication used and information on any complications. The law is scheduled to take effect in November.",Clinic Regulation,Enacted
-OK,S918,"All or Most Abortions Banned; In April, Gov. Kevin Stitt (R) signed legislation (S 918) that would ban abortion if the U.S. Supreme Court overturns Roe v. Wade.",Abortion Ban,Enacted
+OK,S778,"In May, Gov. Kevin Stitt (R) signed legislation (S 778) that limits access to and provision of medication abortion. The measure reinforces existing law that only a physician can provide medication abortion and also prohibits the mailing of the pills necessary for the procedure. It also requires the provider to verify the pregnancy and conduct blood tests before a medication abortion, requiring the patient to make a trip to the clinic before a 72-hour waiting period already in effect begins. The provider must also be able to handle emergencies related to medication abortion or have a contract with another physician who can provide this care. In addition, the patient will be required to receive counseling on, and consent in writing to, the medication abortion. This counseling must provide unverified information on medication abortion “reversal,” including the unproven idea that reversing a medication abortion does not increase the risk of maternal mortality. (Currently counseling related to reversing a medication abortion is not in effect because of a pending court case.) The law also requires reporting requirements for each medication abortion that includes the types of medication used, information on complications and payment information. The law is scheduled to go into effect in November.",Reporting Requirements,Enacted
+OK,S779,"In May, Gov. Kevin Stitt (R) signed legislation (S 779) that requires the State Board of Pharmacy, the State Board of Medical Licensure and Supervision, and the State Board of Osteopathic Examiners to establish certification requirements for providing medication abortion. The regulations, which restate the state’s ban on telehealth for medication abortion, limit distribution of medication abortion pills to those providers participating in the program and prohibit mailing of the pills necessary for the procedure. Providers are required to verify the patient’s pregnancy in-person and to provide the patient with information about medication abortion, including unverified information that reversing a medication abortion does not increase genetic anomalies in the fetus or increase the risk of maternal mortality. The law prohibits providing medication abortion after 10 weeks of pregnancy. It also requires providers to either have admitting privileges at a hospital in the same county as the abortion facility or an adjacent county, or to have an agreement with a physician who has those privileges. Providers are also required to report medication abortions, including the types of medication used and information on any complications. The law is scheduled to take effect in November.",Reporting Requirements,Enacted
+OK,S918,"In April, Gov. Kevin Stitt (R) signed legislation (S 918) that would ban abortion if the U.S. Supreme Court overturns Roe v. Wade.",Abortion Ban,Enacted
 OK,S923,All or Most Abortions Banned,Abortion Ban,Introduced
 OK,SJR17,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 OR,H2540,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+OR,H2699,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 OR,S507,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+OR,S586,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 OR,S653,Allows refusal by medical providers,Expanding Refusal,Introduced
 OR,S654,Abortion for Sex Selection Banned,Abortion Ban,Introduced
 OR,S671,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
@@ -125,8 +230,11 @@ PA,H935,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Introduced
 PA,H936,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Introduced
 PA,S21,Abortion Due to Genetic Anomaly Banned; Abortion for Sex Selection Banned,Abortion Ban,Introduced
 PA,S378,All or Most Abortions Banned,Abortion Ban,Introduced
+RI,H5552,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+RI,H5582,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 RI,H5865,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
 RI,S645,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+RI,S664,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
 RI,S669,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
 SC,H3163,All or Most Abortions Banned,Abortion Ban,Introduced
 SC,H3508,Allows refusal by medical providers,Expanding Refusal,Introduced
@@ -142,52 +250,91 @@ SC,S381,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 SC,S385,Fetal tissue donation and research restricted,Fetal Tissue,Introduced
 SC,S399,All or Most Abortions Banned,Abortion Ban,Introduced
 SC,S811,Allows refusal by medical providers,Expanding Refusal,Introduced
+SD,H1051,"In February, Gov. Kristi Noem (R) approved a measure (H 1051) that requires physicians to preserve the life of a fetus delivered alive after an abortion procedure. The state already has a law that provides legal protections for a fetus delivered after an abortion. The measure is scheduled to take effect in July.",Provider-Specific Restrictions,Enacted
 SD,H1110,"In March, Gov. Kristi Noem (R) signed a measure (H 1110) that prohibits abortion based on a fetus’s diagnosis or potential diagnosis of Down syndrome, except in cases of life endangerment. The measure is scheduled to take effect in July.",Abortion Ban,Enacted
-TN,H1181,"Targeted regulation of abortion providers; In May, Gov. Bill Lee (R) signed legislation (H 1181) that requires tissue from an abortion to be buried or cremated. The measure also requires that the patient is given both of these options. The law is scheduled to take effect in July.",Clinic Regulation,Enacted
+SD,H1130,"In March, Gov. Kristi Noem (R) signed a measure (H 1130) that requires abortion providers to tell patients about medication abortion “reversal” during preabortion counseling. This information must also be provided a second time, along with a state-produced list of “reversal” resources, once the patient is ready to leave the clinic after taking the first medication abortion drug. The measure is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
+TN,H1181,"In May, Gov. Bill Lee (R) signed legislation (H 1181) that requires tissue from an abortion to be buried or cremated. The measure also requires that the patient is given both of these options. The law is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
 TN,H1252,Provider may omit medical information that could lead to abortion,Allows Withholding of Pregnancy Information,Introduced
-TN,H1425,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+TN,H1425,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
 TN,H1539,All or Most Abortions Banned,Abortion Ban,Introduced
 TN,H724,All or Most Abortions Banned,Abortion Ban,Introduced
 TN,S1222,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 TN,S1370,"Provider may omit medical information that could lead to abortion; In May, Gov. Bill Lee (R) signed legislation (H 1370) that allows a medical provider to withhold information about the status of a pregnancy, in anticipation that the pregnant person might obtain an abortion based on the information. The law took effect upon signing.",Allows Withholding of Pregnancy Information,Enacted
 TN,S204,All or Most Abortions Banned,Abortion Ban,Introduced
 TN,S654,All or Most Abortions Banned,Abortion Ban,Introduced
-TN,S828,Targeted regulation of abortion providers,Clinic Regulation,Introduced
+TN,S828,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
+TX, S394,Prohibits Telemedicine for Medication Abortion,Medication Abortion,Passed One Chamber
 TX,H1165,All or Most Abortions Banned,Abortion Ban,Introduced
+TX,H1171,Amending the Court Process to Waive Parental Involvement,Parental Involvement,Introduced
 TX,H1229,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 TX,H1280,"All or Most Abortions Banned; In June, Gov. Greg Abbott (R) signed a “trigger ban” (H 1280) that would ban abortion if the U.S. Supreme Court overturns Roe v. Wade or if states are otherwise granted the authority to prohibit abortion. The Texas ban would only allow an abortion if the patient’s life is endangered or if the patient has a severe physical health condition.",Abortion Ban,Enacted
 TX,H1291,Allows refusal by medical providers,Expanding Refusal,Introduced
 TX,H1432,Abortion for Race Selection Banned,Abortion Ban,Introduced
 TX,H1515,All or Most Abortions Banned,Abortion Ban,Introduced
 TX,H1623,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
+TX,H2313,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
+TX,H2337,Prohibits Telemedicine for Medication Abortion,Medication Abortion,Introduced
+TX,H2949,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
+TX,H2976,Requires Abortion Reporting,Reporting Requirements,Introduced
 TX,H3218,Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Introduced
 TX,H3326,All or Most Abortions Banned,Abortion Ban,Introduced
 TX,H3641,All or Most Abortions Banned,Abortion Ban,Introduced
 TX,H3760,All or Most Abortions Banned; Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Introduced
+TX,H4034,Amending the Court Process to Waive Parental Involvement,Parental Involvement,Introduced
+TX,H4304,Counseling on Perinatal Hospice for Severe Fetal Anomaly,Mandatory Counseling and Waiting Periods,Introduced
 TX,H69,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+TX,HJR113,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
+TX,HJR158,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
+TX,HJR80,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
 TX,S1,Crisis Pregnancy Center Funding,Crisis Pregnancy Centers,Enacted
 TX,S1146,Targeted regulation of abortion providers,Clinic Regulation,Passed One Chamber
+TX,S1439,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Passed One Chamber
 TX,S1546,Admitting privileges required for abortion providers,Clinic Regulation,Introduced
 TX,S1647,All or Most Abortions Banned; Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Passed One Chamber
 TX,S1671,All or Most Abortions Banned,Abortion Ban,Introduced
+TX,S294,Requires Abortion Reporting,Reporting Requirements,Introduced
 TX,S391,All or Most Abortions Banned,Abortion Ban,Introduced
 TX,S573,Allows refusal by medical providers,Expanding Refusal,Introduced
+TX,S650,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Passed One Chamber
 TX,S8,"In May, Gov. Greg Abbott (R) signed a measure (S 8) that bans abortion after the detection of fetal cardiac activity, which is typically at six weeks of pregnancy. An abortion can only be provided after that point if the patient’s life is endangered or there is a severe health condition. Unlike all other abortion bans, there are no criminal penalties; instead, the ban will be enforced through civil lawsuits. The law allows any person in the country to sue a Texas resident who provides an abortion prohibited by the ban or assists the patient in accessing such care. It is scheduled to take effect in September.",Abortion Ban,Enacted
+TX,S802,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Passed One Chamber
 TX,S9,All or Most Abortions Banned,Abortion Ban,Passed One Chamber
+TX,SJR25,Weakens Abortion Protections in State Constitution,State Constitutional Protections,Introduced
+UT,H164,General Counseling Requirements,Mandatory Counseling and Waiting Periods,Introduced
+UT,H253,"In April, Gov. Mark Gordon (R) approved a measure (H 253) that prohibits abortion coverage in health insurance plans provided by the state’s public university and community colleges. The measure is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
 VA,H2241,Abortion Method Banned,Abortion Method Bans,Introduced
 VT,H248,Abortion Banned after 12 weeks LMP; Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 WA,H1008,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
+WA,S5053,Amending the Court Process to Waive Parental Involvement,Parental Involvement,Introduced
 WA,S5416,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
+WI,A262,Requires Abortion Reporting,Reporting Requirements,Introduced
+WI,A370,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
+WI,A6,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+WI,S16,Requirements for Infant Born Alive,Provider-Specific Restrictions,Introduced
+WI,S260,Limits Abortion Training Opportunities,Provider-Specific Restrictions,Introduced
+WI,S261,Requires Abortion Reporting,Reporting Requirements,Introduced
 WV,H2169,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 WV,H2239,All or Most Abortions Banned; Fetal tissue donation and research restricted,Abortion Ban,Introduced
 WV,H2762,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 WV,H2843,Targeted regulation of abortion providers,Clinic Regulation,Introduced
 WV,H2954,Abortion Banned after 12 weeks LMP,Abortion Ban,Introduced
+WV,H2982,Counseling on the Potential to Reverse a Medication Abortion,Mandatory Counseling and Waiting Periods,Introduced
 WV,H3024,Abortion Due to Genetic Anomaly Banned,Abortion Ban,Introduced
+WV,H3259,Abortion Coverage Restricted in Medicaid,Insurance Coverage,Introduced
+WV,H3265,Ultrasound Must Be Performed,Ultrasound or Fetal Heartbeat Testing,Introduced
 WV,S251,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
+WV,S328,Requires Abortion Reporting,Reporting Requirements,Introduced
 WV,S337,Bans Abortion by Establishing Fetal Personhood,Abortion Ban,Introduced
 WV,S416,All or Most Abortions Banned,Abortion Ban,Introduced
+WV,S423,Abortion Coverage Restricted in Private Health Care Plans,Insurance Coverage,Introduced
+WV,S563,Bans the Use of Medication Abortion,Medication Abortion,Introduced
+WV,S595,Bans the Use of Medication Abortion,Medication Abortion,Introduced
+WV,S609,"In April, Gov. Jim Justice (R) signed a measure (H 2982) that requires abortion counseling to include oral and written information on the unverified claim that medication abortion can be “reversed.” In addition, the state’s written materials will be revised to include information on the topic. The law is scheduled to take effect in July.",Mandatory Counseling and Waiting Periods,Enacted
 WV,S74,Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Introduced
 WV,S87,All or Most Abortions Banned,Abortion Ban,Introduced
 WY,H134,All or Most Abortions Banned,Abortion Ban,Introduced
 WY,H161,Abortion Due to Genetic Anomaly Banned; Abortion for Race Selection Banned; Abortion for Sex Selection Banned,Abortion Ban,Passed One Chamber
+WY,H253,Abortion Coverage Restricted in Private Health Care Plans,Insurance Coverage,Enacted
+WY,H70,Counseling Includes Inaccurate Information on Mental Health Outcomes,Mandatory Counseling and Waiting Periods,Introduced
+WY,S133,Bans the Use of Medication Abortion,Medication Abortion,Introduced
+WY,S34,"In April, Gov. Mark Gordon (R) approved a measure (S 34) that requires physicians to preserve the life of a fetus delivered alive after an abortion. The state already has a law that provides protection for a fetus delivered after an abortion.",Provider-Specific Restrictions,Enacted

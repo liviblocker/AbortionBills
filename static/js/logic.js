@@ -15,6 +15,26 @@ let map = L.map('mapid', {
   layers: light
 });
 
+// 1. Add a 2nd layer group for the tectonic plate data.
+let introduced = new L.LayerGroup();
+let passedOne = new L.LayerGroup();
+let passedLegislature = new L.LayerGroup();
+let enacted = new L.LayerGroup();
+let vetoed = new L.LayerGroup();
+
+// 2. Add a reference to the tectonic plates group to the overlays object.
+let filters = {
+  "Introduced": introduced,
+  "Passed One Chamber": passedOne,
+  "Passed Legislature": passedLegislature,
+  "Enacted": enacted,
+  "Vetoed": vetoed
+};
+
+// Then we add a control to the map that will allow the user to change which
+// layers are visible.
+L.control.layers(filters).addTo(map)
+
 // Accessing the Toronto neighborhoods GeoJSON URL.
 let usStates = "https://raw.githubusercontent.com/liviblocker/AbortionBills/main/USBorders.json";
 
@@ -23,13 +43,13 @@ d3.json(usStates).then(function(data) {
   console.log(data);
   // This function determines the color of the state based on the number of abortion bills.
   function getColor(noBills) {
-    return noBills = 0 ? '#800026' :
-           noBills = 1 ? '#BD0026' :
-           noBills = 2 ? '#E31A1C' :
-           noBills = 3 ? '#FC4E2A' :
-           noBills = 4 ? '#FD8D3C' :
-           noBills = 5 ? '#FEB24C' :
-           noBills > 5 ? '#FED976' :
+    return noBills > 15 ? '#800026' :
+           noBills > 11 ? '#BD0026' :
+           noBills > 8 ? '#E31A1C' :
+           noBills > 6 ? '#FC4E2A' :
+           noBills > 4 ? '#FD8D3C' :
+           noBills > 2 ? '#FEB24C' :
+           noBills > 0 ? '#FED976' :
                          '#FFEDA0';
   }
   function style(feature) {
@@ -42,10 +62,11 @@ d3.json(usStates).then(function(data) {
         fillOpacity: 0.7
     };
 }
-L.geoJson(data, {style: style}, {
-    onEachFeature: function(features, layer) {
+L.geoJson(data, {
+  style: style,
+  onEachFeature: function(features, layer) {
       console.log(layer);
-      layer.bindPopup("<h2>" + "State: " + features.properties.NAME + "</h2>");
+      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.NUMBEROFBILLS + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
     }
   }).addTo(map);
   });
