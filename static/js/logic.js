@@ -21,14 +21,31 @@ let usStates = "https://raw.githubusercontent.com/liviblocker/AbortionBills/main
 // Grabbing our GeoJSON data.
 d3.json(usStates).then(function(data) {
   console.log(data);
-  // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data, {
-    fillColor: "#ffffa1",
-    fillOpacity: 0.2,
-    weight: 1,
+  // This function determines the color of the state based on the number of abortion bills.
+  function getColor(noBills) {
+    return noBills = 0 ? '#800026' :
+           noBills = 1 ? '#BD0026' :
+           noBills = 2 ? '#E31A1C' :
+           noBills = 3 ? '#FC4E2A' :
+           noBills = 4 ? '#FD8D3C' :
+           noBills = 5 ? '#FEB24C' :
+           noBills > 5 ? '#FED976' :
+                         '#FFEDA0';
+  }
+  function style(feature) {
+    return {
+        fillColor: getColor(feature.properties.NUMBEROFBILLS),
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
+L.geoJson(data, {style: style}, {
     onEachFeature: function(features, layer) {
       console.log(layer);
-      layer.bindPopup("<h2>" + "Neighborhood: " + features.properties.AREA_NAME + "</h2>");
+      layer.bindPopup("<h2>" + "State: " + features.properties.NAME + "</h2>");
     }
   }).addTo(map);
   });
