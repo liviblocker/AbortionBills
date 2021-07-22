@@ -35,13 +35,13 @@ let filters = {
 // layers are visible.
 L.control.layers(filters).addTo(map)
 
-// Accessing the Toronto neighborhoods GeoJSON URL.
+// Accessing the states GeoJSON URL.
 let usStates = "https://raw.githubusercontent.com/liviblocker/AbortionBills/main/USBorders.json";
 
 // Grabbing our GeoJSON data.
 d3.json(usStates).then(function(data) {
   console.log(data);
-  // This function determines the color of the state based on the number of abortion bills.
+  // This function determines the color of the state based on the number of abortion bills introduced.
   function getColor(noBills) {
     return noBills > 30 ? '#800026' :
            noBills > 25 ? '#BD0026' :
@@ -54,7 +54,7 @@ d3.json(usStates).then(function(data) {
   }
   function style(feature) {
     return {
-        fillColor: getColor(feature.bills.TOTALNUMBER),
+        fillColor: getColor(feature.properties.TOTALNUMBER),
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -66,7 +66,7 @@ L.geoJson(data, {
   style: style,
   onEachFeature: function(features, layer) {
       console.log(layer);
-      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.bills.TOTALNUMBER + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
+      layer.bindPopup("<center>" + "<h2>" + features.properties.NAME + "</h2>" + "<h3>" + "<u>" + features.properties.TOTALNUMBER + "</u>" + " anti-abortion bill(s) introduced in 2021" + "</h3>" + "</center>");
     }
   }).addTo(map);
   });
