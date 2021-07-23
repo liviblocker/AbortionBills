@@ -16,11 +16,11 @@ let map = L.map('mapid', {
   layers: light
 });
 
-// 1. Add a 2nd layer group for the tectonic plate data.
+// Add two layer groups for the introduced bills and the enacted bills data.
 let introduced = new L.LayerGroup();
 let enacted = new L.LayerGroup();
 
-// 2. Add a reference to the tectonic plates group to the overlays object.
+// Add a reference to the layers to the filters object.
 let filters = {
   "Anti-Abortion Bills Introduced": introduced,
   "Anti-Abortion Bills Enacted": enacted,
@@ -105,7 +105,7 @@ legend1.onAdd = function() {
   legend1.addTo(map);
 
 // Grabbing our GeoJSON data.
-d3.json("https://raw.githubusercontent.com/liviblocker/AbortionBills/main/USBorders.json").then(function(data) {
+d3.json(usStates).then(function(data) {
   console.log(data);
   // This function determines the color of the state based on the number of abortion bills introduced.
   function getColor(noBills) {
@@ -172,20 +172,35 @@ legend2.onAdd = function() {
     return div;
   };
 
-  // Finally, we our legend to the map.
+  // We add the second legend to the map.
   legend2.addTo(map);
 
-  currentLegend = legend1;
-    
   map.on('baselayerchange', function (filters) {
       if (filters.name === 'Anti-Abortion Bills Introduced') {
-          map.removeControl(currentLegend );
-          currentLegend = legend1;
+          map.removeControl(legend2);
+          map.removeControl(enacted);
           legend1.addTo(map);
       }
       else if  (filters.name === 'Anti-Abortion Bills Enacted') {
-          map.removeControl(currentLegend );
-          currentLegend = legend2;
+          map.removeControl(legend1);
+          map.removeControl(introduced);
           legend2.addTo(map);
       }
-    });
+      
+    })
+
+L.Control.textbox = L.Control.extend({
+  onAdd: function(map) {
+    
+  var text = L.DomUtil.create('div');
+  text.id = "info_text";
+  text.innerHTML = "<center>" + "<h3>" + "Map of Anti-Abortion Bills in the United States (2021)" + "</h3>" + "Data pulled from the " + "<a href=www.guttmacher.org/state-policy>" + "Guttmacher Institute." + "</center>";
+  return text;
+  },
+
+  onRemove: function(map) {
+    // Nothing to do here
+  }
+});
+L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+L.control.textbox({ position: 'bottomleft' }).addTo(map);
