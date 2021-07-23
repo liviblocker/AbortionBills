@@ -12,6 +12,7 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 let map = L.map('mapid', {
   center: [37.8, -96],
   zoom: 5,
+  scrollWheelZoom: false,
   layers: light
 });
 
@@ -76,7 +77,8 @@ let legend1 = L.control({
 
 // Then add all the details for the legend
 legend1.onAdd = function() {
-  let div = L.DomUtil.create("div", "info legend");
+  var div = L.DomUtil.create("div", "info legend");
+  div.innerHTML = "<header>" + "<h3>" + "<strong>" + "Bills Introduced" + "</h3>" + "</strong>" + "</header>";
 
   const magnitudes = [1, 3, 7, 11, 15, 20, 25];
   const colors = [
@@ -88,15 +90,15 @@ legend1.onAdd = function() {
     "#BD0026",
     "#800026"
   ];
-
+  
 // Looping through our intervals to generate a label with a colored square for each interval.
   for (var i = 0; i < magnitudes.length; i++) {
     console.log(colors[i]);
     div.innerHTML +=
-      "<i style='background: " + colors[i] + "'></i> " +
+    "<i style='background: " + colors[i] + "'></i> " +
       magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
     }
-    return div;
+    return div;    
   };
 
   // Finally, we our legend to the map.
@@ -147,6 +149,7 @@ let legend2 = L.control({
 // Then add all the details for the legend
 legend2.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
+  div.innerHTML = "<header>" + "<h3>" + "<strong>" + "Bills Enacted" + "</h3>" + "</strong>" + "</header>";
 
   const magnitudes = [1, 2, 3, 4, 5, 6];
   const colors = [
