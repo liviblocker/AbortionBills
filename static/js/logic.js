@@ -31,7 +31,7 @@ let filters = {
 L.control.layers(filters).addTo(map)
 
 // Accessing the states GeoJSON URL.
-let usStates = "https://raw.githubusercontent.com/liviblocker/AbortionBills/main/USBorders.json";
+let usStates = "https://raw.githubusercontent.com/liviblocker/AbortionBills/main/raw_data/USBorders.json";
 
 // Grabbing our GeoJSON data.
 d3.json(usStates).then(function(data) {
